@@ -3,53 +3,58 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css\bootstrap.css">
+    <link rel="stylesheet" href="css\bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css\style.css"	type="text/css" >    
 	<title>Bride and Joy Boutique</title>
 </head>
 <body>
-	<header class="group container" >
-        <div class="group">
+	<header class="group" >
+        <div class="group container">
             <div class="left" >
                 <h1>Bride & Joy</h1>
                 <h3>Wedding Boutique</h3>
                 <address>800 N Main St.  Crown Point, IN</address>
                 <a href="tel://2196637717">219-663-7717 Call Now!</a>
             </div>
-            <nav class="main-nav right">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Photos</a></li>
-                    <li><a href="#">Recent Events</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">About Us</a></li>
-                </ul>
-            </nav>
+            <div class="right">
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Photos</a></li>
+                        <li><a href="#">Recent Events</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </nav>
+                <p class="right"><span>Connect with us on Facebook!</span><a href="https://www.facebook.com/brideandjoyboutique"><img class="facebook" src="images/facebook.png" alt="Bride & Joy Facebook page" ></a>
+                </p>
+            </div>
         </div>
-        <p class= "right"><span>Connect with us on Facebook!</span><img class="facebook" src="images/facebook.png" alt="Bride & Joy Facebook page" >
-        </p>
 	</header>	
-    <main>
-    	<div class= "container">
-        	<div class= "promotions">
-            	<h2>Current Events</h2>
+    <main class="container-fluid">
+        <div class="row">
+            <div class= "promotions col-xs-12 col-sm-4 col-md-4">
+                <h2>Current Events</h2>
                 <img src="images/prom-promotion.png" alt="Prom 2014 promotions" >
                 <p>Prom coupon in effect through May 20, 2014!</p>
                 <p>15% off <span class="uppercase">everything prom!</span></p>
                 <ul>
-                	<li>Gowns</li>
+                    <li>Gowns</li>
                     <li>Tux's</li>
                     <li>Shoes</li>
                     <li>Jewelry</li>
                     <li><span class="uppercase">Plus</span> enter to win a free bouquet!</li>
                 </ul>
             </div>
-            <div class="map">
-            	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2991.6279708039233!2d-87.36404999999999!3d41.425593899999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8811efe97a1a7db5%3A0x759a4d3f1a0b8ff5!2s800+N+Main+St!5e0!3m2!1sen!2sus!4v1399926308902" frameborder="0" style="border:0"></iframe>
+            <div class="map col-xs-12 col-sm-4 col-md-3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2991.6279708039233!2d-87.36404999999999!3d41.425593899999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8811efe97a1a7db5%3A0x759a4d3f1a0b8ff5!2s800+N+Main+St!5e0!3m2!1sen!2sus!4v1399926308902" frameborder="0" style="border:0"></iframe>
+                <p>800 N Main St.  Crown Point, IN</p>
             </div>
-            <div class="group store-hours" >
+        </div>
+        <div class="row">
+            <div class="group store-hours col-xs-12 col-sm-5 col-md-4" >
                 <h3>Store Hours</h3>
                     <ul class="days">
                         <li>Sunday &amp; Monday</li>
@@ -68,12 +73,12 @@
                         <li>11-5</li>
                     </ul>
             </div>
-            <div class="quote">
+            <div class="quote col-xs-12 col-md-4">
                 <p>We've had an amazing first few months and we'd like to thank all of our customers!  We've signed quite a few weddings this past month as well as helped some bride's find their perfect gown!
 We're now getting in 2014 PROM and the dresses are beyond STUNNING!!  
 We LOVE all of the positive feedback we've gotten and can't thank everyone enough!</p>
             </div>
-            <div class="schedule-apt">
+            <div class="schedule-apt col-xs-12 col-sm-4 col-md-4">
                 <h3>Schedule an appointment</h3>
                 <form>
                     Name: <input type="text" name="name"><br>
@@ -89,7 +94,9 @@ We LOVE all of the positive feedback we've gotten and can't thank everyone enoug
         </div>
     </main>
     <footer>
-        
+        <p>Bride and Joy Wedding Boutique</p>
+        <p>800 N Main St. Crown Point, IN</p>
+        <p>219-663-7717</p>
     </footer>
 </body>
 </html>

@@ -68,17 +68,18 @@ header {
 
 img.facebook { margin-left: 10px; }
 
+.promotions,
+.map,
+.store-hours,
+.quote { margin-bottom: 45px; }
+
 .promotions img { max-width: 100%; }
 
 main { 
     text-align: center;
 }
 
-div.promotions { margin-bottom: 10px; }
-
-div.map { margin-bottom: 10px; }
-
-div.store-hours {margin-bottom: 10px; }
+.store-hours ul { font-size: 0.8675em; }
 
 ul.days { 
     float: left; 
@@ -87,6 +88,19 @@ ul.days {
 
 ul.hours { 
     float: right;
+}
+
+.quote p { 
+    padding: 10px;
+    border: 1px solid #cec5c5;
+    background-color: #eee;
+}
+
+footer {
+    background-color: #303030;
+    color: #eee;
+    font-size: 0.8675em;
+    padding: 25px;
 }
 
 /*
@@ -107,6 +121,10 @@ ul.hours {
         text-align: initial;
     }
 
+    header {
+        border-bottom: 1px solid #eee;
+    }
+
     .main-nav ul { border-top: none; }
 
     .main-nav li {
@@ -115,6 +133,8 @@ ul.hours {
         width: 95px;
         text-align: center;
     }
+
+    .store-hours ul { font-size: initial; }
     
 
 }
