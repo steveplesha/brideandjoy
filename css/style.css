@@ -71,7 +71,8 @@ img.facebook { margin-left: 10px; }
 .promotions,
 .map,
 .store-hours,
-.quote { margin-bottom: 45px; }
+.quote,
+.schedule-apt { margin-bottom: 45px; }
 
 .promotions img { max-width: 100%; }
 
@@ -96,6 +97,19 @@ ul.hours {
     background-color: #eee;
 }
 
+.apt-submit {
+    width: 100%;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #303030;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.apt-submit:hover {
+    border-color: #303030;
+}
+
 footer {
     background-color: #303030;
     color: #eee;
@@ -116,9 +130,14 @@ footer {
         margin: 0 auto;
     }
 
-    header,
-    main {
+    header {
         text-align: initial;
+        box-shadow: 0 1px 20px #4e4e4e;
+    }
+    
+    main { 
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     header {
@@ -133,9 +152,16 @@ footer {
         width: 95px;
         text-align: center;
     }
+    
+    .apt-submit { width: 50%; }
 
     .store-hours ul { font-size: initial; }
-    
 
+}
+
+@media screen and (min-width: 990px) {
+    main {
+        padding-top: 75px;
+    }
 }
     

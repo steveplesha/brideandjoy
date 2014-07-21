@@ -35,9 +35,11 @@
 	</header>	
     <main class="container-fluid">
         <div class="row">
-            <div class= "promotions col-xs-12 col-sm-4 col-md-4">
-                <h2>Current Events</h2>
+            <div class= "promotions col-xs-12 col-sm-6 col-md-4 col-lg-4">
                 <img src="images/prom-promotion.png" alt="Prom 2014 promotions" >
+            </div>
+            <div class="promotions col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <h2>Current Events</h2>
                 <p>Prom coupon in effect through May 20, 2014!</p>
                 <p>15% off <span class="uppercase">everything prom!</span></p>
                 <ul>
@@ -48,13 +50,57 @@
                     <li><span class="uppercase">Plus</span> enter to win a free bouquet!</li>
                 </ul>
             </div>
-            <div class="map col-xs-12 col-sm-4 col-md-3">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2991.6279708039233!2d-87.36404999999999!3d41.425593899999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8811efe97a1a7db5%3A0x759a4d3f1a0b8ff5!2s800+N+Main+St!5e0!3m2!1sen!2sus!4v1399926308902" frameborder="0" style="border:0"></iframe>
-                <p>800 N Main St.  Crown Point, IN</p>
+            <div class="quote col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <p>We've had an amazing first few months and we'd like to thank all of our customers!  We've signed quite a few weddings this past month as well as helped some bride's find their perfect gown!
+We're now getting in 2014 PROM and the dresses are beyond STUNNING!!  
+We LOVE all of the positive feedback we've gotten and can't thank everyone enough!
+                </p>
             </div>
         </div>
         <div class="row">
-            <div class="group store-hours col-xs-12 col-sm-5 col-md-4" >
+            <div class="schedule-apt col-xs-12 col-sm-6 col-md-4 col-lg-5">
+                <h3>Schedule an appointment</h3>
+                <form role="form" class="form-horizontal" >
+                    <div class="form-group">
+                        <label for="name" class="col-sm-3 control-label">Name:</label>
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Your name here">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="col-sm-3 control-label">Email:</label>
+                        <div class="col-sm-8">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Your email here">
+                        </div>
+                    </div>                    
+                    <div class="form-group">
+                        <label for="phone" class="col-sm-3 control-label">Phone Number:</label>
+                        <div class="col-sm-8">
+                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Your phone number">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="date" class="col-sm-3 control-label">Preferred Date:</label>
+                        <div class="col-sm-8">
+                            <input type="date" class="form-control" id="date" name="date">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="time" class="col-sm-3 control-label">Preferred Time:</label>
+                        <div class="col-sm-8">
+                            <input type="time" class="form-control" id="time" name="time">
+                        </div>
+                    </div>                
+                    <div class="form-group">
+                        <label for="comments" class="col-sm-3 control-label">Comments:</label>
+                        <div class="col-sm-8">
+                            <textarea class="form-control" row="3" id="comments" name="comments" placeholder="Optional"></textarea>
+                        </div>
+                    </div>                    
+                    <input type="submit" class="apt-submit btn btn-default" value="Submit" >
+                </form>
+            </div>
+            <div class="group store-hours col-xs-12 col-sm-6 col-md-4 col-lg-3" >
                 <h3>Store Hours</h3>
                     <ul class="days">
                         <li>Sunday &amp; Monday</li>
@@ -72,24 +118,10 @@
                         <li>12-6</li>
                         <li>11-5</li>
                     </ul>
-            </div>
-            <div class="quote col-xs-12 col-md-4">
-                <p>We've had an amazing first few months and we'd like to thank all of our customers!  We've signed quite a few weddings this past month as well as helped some bride's find their perfect gown!
-We're now getting in 2014 PROM and the dresses are beyond STUNNING!!  
-We LOVE all of the positive feedback we've gotten and can't thank everyone enough!</p>
-            </div>
-            <div class="schedule-apt col-xs-12 col-sm-4 col-md-4">
-                <h3>Schedule an appointment</h3>
-                <form>
-                    Name: <input type="text" name="name"><br>
-                    Email: <input type="text" name="email"><br>
-                    Phone: <input type="text" name="phone" placeholder="Optional"><br>
-                    Preferred Date and Time:<br>
-                    <input type="date" name="date"><input type="time" name="time"><br>
-                    Comments:<br>
-                    <textarea placeholder="Optional"></textarea><br>
-                    <input type="submit" value="Submit" >
-                </form>
+            </div>        
+            <div class="map col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2991.6279708039233!2d-87.36404999999999!3d41.425593899999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8811efe97a1a7db5%3A0x759a4d3f1a0b8ff5!2s800+N+Main+St!5e0!3m2!1sen!2sus!4v1399926308902" frameborder="0" style="border:0"></iframe>
+                <p>800 N Main St.  Crown Point, IN</p>
             </div>
         </div>
     </main>
